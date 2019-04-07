@@ -6,7 +6,8 @@
   "scripts": {
     "check-types": "tsc",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint --fix --ext .ts ./src"
   },
   "author": "soarflat",
   "license": "MIT",
@@ -17,7 +18,12 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-typescript": "^7.3.3",
     "@types/lodash-es": "^4.17.3",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
     "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
     "typescript": "^3.4.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
