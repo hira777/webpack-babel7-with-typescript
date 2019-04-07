@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "webpack-babel7-with-typescript",
+  "version": "1.0.0",
+  "description": "A minimalistic boilerplate on top of Webpack, Babel7 and TypeScript",
+  "scripts": {
+    "check-types": "tsc",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "soarflat",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/lodash-es": "^4.17.3",
+    "babel-loader": "^8.0.5",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.11"
+  }
+}
