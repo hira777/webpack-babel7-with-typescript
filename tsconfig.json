@@ -3,18 +3,19 @@
     /* トランスパイル後のECMAScriptのバージョン */
     "target": "es5",
 
-    /* 絶対パスのモジュールは node_modules 配下を検索する */
+    /* 相対パスではないモジュールは node_modules 配下を検索する */
     "moduleResolution": "node",
 
-    /* 今回、トランスパイルは Babel が行うので、`tsc`コマンドで出力しないようにする */
+    /* 今回、トランスパイルは Babel が行うので、`tsc`コマンドで JavaScriptファイル を出力しないようにする */
     "noEmit": true,
 
-    /* 厳格な型チェックオプション(noImplicitAny、noImplicitThis、alwaysStrict、
+    /* 厳格な型チェックオプション（noImplicitAny、noImplicitThis、alwaysStrict、
        strictBindCallApply、strictNullChecks、strictFunctionTypes、
-       strictPropertyInitialization) を 有効化する */
+       strictPropertyInitialization）を有効化する */
     "strict": true,
 
-    /* Babel では技術的制約で、ネームスペースなどのファイルを跨いだ構文を解釈してトランスパイルできない。
+    /* 各ファイルを個々のモジュールとしてトランスパイルする。
+       Babel では技術的制約で、ネームスペースなどのファイルを跨いだ構文を解釈してトランスパイルできない。
        このオプションを有効にすれば、Babel でトランスパイルできない TypeScript の構文を検出して警告を出す */
     "isolatedModules": true,
 

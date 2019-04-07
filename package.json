@@ -2,7 +2,7 @@
   "private": true,
   "name": "webpack-babel7-with-typescript",
   "version": "1.0.0",
-  "description": "A minimalistic boilerplate on top of Webpack, Babel7 and TypeScript",
+  "description": "A simple example of Webpack, Babel7, TypeScript and TypeScript ESLint with Prettier",
   "scripts": {
     "check-types": "tsc",
     "dev": "webpack --mode development",
