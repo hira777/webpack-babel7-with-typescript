@@ -2,7 +2,7 @@ const { resolve } = require('path');
 
 module.exports = {
   // エントリーポイントの設定
-  entry: './src',
+  entry: './src/app.ts',
   // 出力の設定
   output: {
     // 出力するファイル名
