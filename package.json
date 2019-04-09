@@ -6,7 +6,6 @@
   "scripts": {
     "check-types": "tsc",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
     "lint": "eslint --fix --ext .ts ./src"
   },
   "author": "soarflat",
